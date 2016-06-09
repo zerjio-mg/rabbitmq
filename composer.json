@@ -1,0 +1,15 @@
+{
+  "name": "zerjio-mg/rabbitmq",
+  "authors": [
+    {
+      "name": "Sergio Martínez González",
+      "email": "zerjio.mg@gmail.com"
+    }
+  ],
+  "require": {
+    "videlalvaro/php-amqplib": "2.2.*"
+  },
+  "autoload": {
+    "psr-4" : { "RabbitMQ\\" : "src" }
+  }
+}
